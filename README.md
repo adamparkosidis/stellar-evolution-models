@@ -5,11 +5,13 @@
 This is end extended analysis of stellar evolution models. In this project we create models of different mass and analyse the key points of their evolution.
 There is an extended analysis in `Stellar_evolution_and structere_MESA_project.pdf` which aims to explain the underling physics and mechanisms that govern the evolution of single stars in the mass regime of interest.
 
-## [MESA](https://docs.mesastar.org/en/release-r22.05.1/)
+## [MESA](https://docs.mesastar.org/en/release-r22.05.1/) 
 
-In this project [MESA Release 12778](https://zenodo.org/record/3698354#.Y1KO6vxBxH4) was used.
-[MESA SDK](http://user.astro.wisc.edu/~townsend/static.php?ref=mesasdk#Download) is necessary for the simualtions.
-[Other dependencies](http://user.astro.wisc.edu/~townsend/static.php?ref=mesasdk#Linux_.01Intel.01)
+To produce the data contained in /workplace/runs  [MESA Release 12778](https://zenodo.org/record/3698354#.Y1KO6vxBxH4) and [MESA SDK](http://user.astro.wisc.edu/~townsend/static.php?ref=mesasdk#Download) were used. There are [Other dependencies](http://user.astro.wisc.edu/~townsend/static.php?ref=mesasdk#Linux_.01Intel.01)  necessary for the code to run properly. Finally [mesaPlot](https://github.com/rjfarmer/mesaplot) is used to read MESA ouput files  
+
+How to: [Install the MESASDK](http://www.astro.wisc.edu/~townsend/static.php?ref=mesasdk#Installation) and [MESA install instructions](http://mesa.sourceforge.net/prereqs.html#set-your-environment-variables)
+
+
 
 ## Code Overview
 
