@@ -1,6 +1,17 @@
 # Stellar Evolution models using MESA
 
-# Code Overview
+## Description
+
+This is end extended analysis of stellar evolution models. In this project we create models of different mass and analyse the key points of their evolution.
+There is an extended analysis in `Stellar_evolution_and structere_MESA_project.pdf` which aims to explain the underling physics and mechanisms that govern the evolution of single stars in the mass regime of interest.
+
+## ![MESA](https://docs.mesastar.org/en/release-r22.05.1/)
+
+In this project ![MESA Release 12778](https://zenodo.org/record/3698354#.Y1KO6vxBxH4) was used.
+![MESA SDK](http://user.astro.wisc.edu/~townsend/static.php?ref=mesasdk#Download) is necessary for the simualtions.
+![Other dependencies](http://user.astro.wisc.edu/~townsend/static.php?ref=mesasdk#Linux_.01Intel.01)
+
+## Code Overview
 
 1) Time evolution of the central abundances for a massive star
 
@@ -26,30 +37,23 @@ explain qualtatively why there are differences between stars at $Z/Z_{\odot} = 1
 3. Pick one of the five masses (we picked the one with $M=5 M_{\odot}) and we evolve that system again, but now until the end of core helium burning. We make a new Hertzsprung-Russel diagram and add labels to mark key features in the evolutionary tracks. We include the following
 
 (a) Start of H burning (or zero-age main sequence)
-
 (b) End of the main sequence (as marked by the start of the overall contraction at the end of central H burning)
-
 (c) Onset of H-shell burning
-
 (d) The location where the star starts to ascend the giant branch
-
 (e) Central ignition of helium burning
-
 (f) The location where the star spends most of the helium burning phase
-
 (g) Central exhaustion of helium.
-
 (h) End of the evolutionary track. Note that the end of the evolutionary track probably coincides
 with the central exhausting of helium.
 
 4. Apart from the pre-main sequence contraction, there are two other phases where the star contracts. We analyse these phases.
 
 5. The Main sequence spans from A-B. We indicate the letters (from the previous question) that mark the following phases:
+
 (a) Evolution across the Hertzsprung gap
-
 (b) Ascend of the (first) giant branch
-
-(c) blue loop, (d) Ascend of the Asymptotic Giant Branch
+(c) blue loop
+(d) Ascend of the Asymptotic Giant Branch
 
 7. We stopped the track at central helium exhaustion. We also speculate how will the evolution of a star of this mass
 continue andt its final.
@@ -63,11 +67,8 @@ We:
 2. Plot the approximate boundary lines between regions where
 
 (a) radiation pressure dominates
-
 (b) electrons behave like a classical ideal gas
-
 (c) electrons behave line a degenerate gas
-
 (d) electrons behave relativistic degenerate gas.
 
 3. Mark on the track where (a) central hydrogen burning is taking place. (b) central helium burning
