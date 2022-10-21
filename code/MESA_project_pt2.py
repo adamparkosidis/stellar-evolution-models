@@ -49,8 +49,10 @@ def plot_end_MS(y,x,c):
 sigma = constants.value(u'Stefan-Boltzmann constant') # in W/m^2/K^4
 sigma=sigma_cgs(sigma)
 
+path = os.getcwd()
 data=mp.MESA()
-directory = '/home/adam/My_Environment/Projects/MSc_Courses/Structure_and_Evolution_of_Stars/workplace/runs'
+directory = path+'/workplace/runs'    # insert the appropriate path
+data_df = pd.DataFrame(data.hist.data)
 
 radii = np.logspace(0,2,10)
 T = np.logspace(3.7,4.5,10)

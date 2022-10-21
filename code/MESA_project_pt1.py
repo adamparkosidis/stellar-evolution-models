@@ -16,9 +16,10 @@ import os
 ####################
 #### Question 1 ####
 ####################
+path = os.getcwd()
 
 data=mp.MESA()
-data.loadHistory(f='/home/adam/My_Environment/Projects/MSc_Courses/Structure_and_Evolution_of_Stars/workplace/runs/LOGS_15M')
+data.loadHistory(f=path+'/workplace/runs/LOGS_15M')   # insert the appropriate path
 data_df = pd.DataFrame(data.hist.data)
 #data_header = data_df.head()
 
@@ -65,7 +66,7 @@ plt.grid()
 
     
 '''  
-data.loadHistory(f='/home/adam/My_Environment/Projects/Structure_and_Evolution_of_Stars/workplace/LOGS')
+data.loadHistory(f='/home/adam/My_Environment/Projects/Structure_and_Evolution_of_Stars/workplace/LOGS')  # insert the appropriate path
 data_df = pd.DataFrame(data.hist.data)
 data_header = data_df.head()
 

@@ -33,9 +33,9 @@ def nr_er_dege_line(mu_e):
 def ideal_gas_er_dege_line(rho,mu,mu_e):
     return (1/3)*rho + np.log10(1.5e7)+np.log10(mu)-(4/3)*np.log10(mu_e)
 
-
+path = os.getcwd()
 data=mp.MESA()
-data.loadHistory(f='/home/adam/My_Environment/Projects/MSc_Courses/Structure_and_Evolution_of_Stars/workplace/runs/LOGS_15M')
+data.loadHistory(f=path+'/workplace/runs/LOGS_15M')  # insert the appropriate path
 data_df_15M = pd.DataFrame(np.array([data.hist.center_h1, data.hist.center_he4 ,data.hist.log_Teff, data.hist.log_L,
                                      data.hist.log_cntr_Rho, data.hist.log_cntr_T, data.hist.center_mu,data.hist.log_Lnuc,
                                      data.hist.pp, data.hist.cno, data.hist.tri_alfa]).T,columns=['center_h1','center_he4',
